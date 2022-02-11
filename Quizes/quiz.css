@@ -1,0 +1,1051 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+
+@media screen and (max-width: 1000px) {
+    .containerRight{
+        margin-top:10px;
+        background:  rgb(252, 245, 226);;
+        overflow-x: hidden;
+        display: flex;
+        border-radius: 1rem;
+        padding-top:0.4rem;
+        width: 100%;
+        height: 400px;
+        overflow-y:hidden;
+        max-width: 500px;
+    }    
+}
+
+
+body{    
+    cursor: url(../Resources/icon.png), auto;
+    animation: bodyAnimation 3s;
+    background-color: rgb(158, 0, 34);
+    background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+}
+
+ 
+@keyframes bodyAnimation{
+    0%{
+        transform: scale(0.95);
+        opacity: 0.0;
+    }
+    100%{
+        transform: scale(1.0);
+        opacity: 1.0;
+    }
+}
+
+.navbar{
+    margin: 2rem auto;
+    margin-bottom: 0px;
+    width: 100%;
+    display: block;
+    background: rgb(255,251,225);
+    background: linear-gradient(90deg, rgba(255,251,225,1) 0%, rgba(255,226,145,1) 50%, rgba(255,251,225,1) 100%);
+    border-radius:1rem;
+    padding-top:0.4rem;
+    padding-right:0.3rem;
+    height:5rem;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+
+.quoteContainer{
+    padding-top:0.9rem;
+    background: rgb(158, 0, 34);
+    margin-top: 1rem;
+    text-align: center;
+    padding-bottom:0.9rem;
+    border-bottom: rgb(1, 55, 92) 1px solid;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+}
+
+.quoteButtonsContainer{
+    padding-top:0.9rem;
+    background: rgb(158, 0, 34);
+    margin-top: 1rem;
+    text-align: center;
+    padding-bottom:0.9rem;
+
+}
+
+.quoteButt{
+    border:none;
+    cursor: pointer;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5rem;
+    animation: regButt 2s infinite linear;
+    margin-left: 1rem;
+    background-color: #faffce;
+    transition: all 0.2s ease-in-out;
+}
+
+.quoteButt:hover{
+    transform: scale(1.05);
+    animation: regButtHover 1s infinite linear;
+    background-color: #8f0013;
+    color:#faffce;
+    border:#faffce 2px solid;
+}
+
+@keyframes regButt {
+    0% {
+		box-shadow: 0 0 0 0 rgba(255, 250, 206, 0.7);
+	}
+
+	70% {
+		box-shadow: 0 0 0 50px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		box-shadow: 0 0 0 0px rgba(0, 0, 0, 0);
+	}
+}
+
+
+@keyframes regButtHover {
+    0% {
+		box-shadow: 0 0 0 0 rgba(255, 250, 206, 0.7);
+	}
+
+	50% {
+		box-shadow: 0 0 0 500px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+.quoteEventContainer{
+    padding-left:1.4rem;
+    padding-right: 1.2rem;
+    text-align:justify;
+    font-family: 'Itim', cursive;
+    line-height:1.5rem;    
+    padding-bottom:1rem;
+}
+
+.tagQuote{
+    font-size: 2rem;
+    color:rgb(255, 224, 226);
+}
+
+
+.winContainer{
+    padding-top:0.9rem;
+    background-color: #fffeb5;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #fffeb5 5px ), repeating-linear-gradient( #e1df4255, #e1df42 );
+    margin-top: 1rem;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom:0.9rem;
+    border-bottom: rgb(255, 238, 145) 1px solid;
+}
+
+.winQuote{
+    font-size: 2rem;
+    color:rgb(1, 46, 66);
+}
+
+.containerHover:hover{
+        box-shadow: 0 0 1000px 0#ffcb90;
+}
+
+.word {
+    color: white;
+    font-size:1rem;
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+  }
+
+.footer{
+    margin: 2rem auto;
+    margin-bottom: 0px;
+    width: 100%;
+    display: block;
+    background: rgb(160,0,36);
+    background: linear-gradient(90deg, rgba(160,0,36,1) 0%, rgba(243,54,86,1) 71%, rgba(249,153,156,1) 86%, rgba(255,251,225,1) 100%);
+    border-radius:1rem;
+    padding-right:0.3rem;
+    height:5rem;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.nakedNav{
+    cursor: pointer;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    max-width: 6rem;
+}
+
+.nakedNav:hover{
+    transform: scale(1.2);
+}
+
+.iiitv{
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 0.4rem;
+    margin-left: 1.5rem;
+    max-width: 20rem;
+}
+
+.footerlogo{
+    margin-top:2rem;
+    cursor: pointer;
+    margin-right: 0.7rem;
+    object-fit: 50%;
+    float:right;
+    max-width: 70px;
+}
+
+.containerMaster{
+    margin: 1rem auto;
+    display: block;
+    max-width: 1000px;
+}
+
+.containerLeft{
+    background:  rgb(252, 245, 226);;
+    overflow-x: hidden;
+    display: flex;
+    float: left;
+    border-radius: 1rem;
+    padding-top:0.4rem;
+    width: 100%;
+    height: 400px;
+    overflow-y:hidden;
+    max-width: 495px;
+    transition: all 0.15s ease-in-out;
+}
+
+.containerRight{
+    float:right;
+    background:  rgb(252, 245, 226);;
+    overflow-x: hidden;
+    display: block;
+    border-radius: 1rem;
+    padding-top:0.4rem;
+    width: 100%;
+    height: auto;
+    overflow-y:hidden;
+    max-width: 495px;
+    transition: all 0.2s ease-in-out;
+}
+
+.eventMaster{
+    background: transparent;
+    margin: 1rem auto;
+    display: block;
+    max-width: 1000px;
+    transition: all 0.2s ease-in-out;
+}
+
+.eventLeft{
+    overflow:auto;
+    height: 100%;
+    margin-top:10px;
+    float:left;
+    background:  rgb(252, 245, 226);;
+    overflow-x: hidden;
+    display: block;
+    border-radius: 1rem;
+    padding-top:0.4rem;
+    width: 100%;
+    overflow-y:hidden;
+    max-width: 495px;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.eventLeftPROMO{
+    overflow:auto;
+    height: 100%;
+    margin-top:10px;
+    margin-bottom:10px;
+    float:left;
+    background:  rgb(252, 245, 226);;
+    overflow-x: hidden;
+    display: block;
+    border-radius: 1rem;
+    padding-top:0.4rem;
+    width: 100%;
+    overflow-y:hidden;
+    max-width: 495px;
+    transition: all 0.2s ease-in-out;
+}
+
+.eventLeftPROMObd:hover{
+    box-shadow: 0 0 1000px 0#ffcb90;
+}
+
+.eventLeftPROMObd{
+    overflow:auto;
+    height: 100%;
+    margin-top:10px;
+    margin-bottom:10px;
+    float:right;
+    background:  rgb(252, 245, 226);;
+    overflow-x: hidden;
+    display: block;
+    border-radius: 1rem;
+    padding-top:0.4rem;
+    width: 100%;
+    overflow-y:hidden;
+    max-width: 495px;
+    transition: all 0.2s ease-in-out;
+}
+
+.eventLeftPROMObd:hover{
+    box-shadow: 0 0 1000px 0#ffcb90;
+}
+
+
+
+.socialContainer{
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    float:right;
+    background:  rgb(252, 245, 226);;
+    overflow-x: hidden;
+    display: inline;
+    border-radius: 1rem;
+    padding-top:0.4rem;
+    width: 100%;
+    height: auto;
+    overflow-y:hidden;
+    max-width: 495px;
+}
+
+.socialContainer:hover{
+    box-shadow: 0 0 1000px 0#ffcb90;
+}
+
+.socialContainerBD{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    float:left;
+    background:  rgb(252, 245, 226);;
+    overflow-x: hidden;
+    display: inline;
+    border-radius: 1rem;
+    padding-top:0.4rem;
+    width: 100%;
+    height: auto;
+    overflow-y:hidden;
+    max-width: 495px;
+    transition: all 0.2s ease-in-out;
+}
+
+.socialContainerBD:hover{
+    box-shadow: 0 0 1000px 0#ffcb90;
+}
+
+.socialStavya{ 
+    float: right;
+    display: inline-block;
+    max-width: 50px;
+}
+
+.socialContact{
+    display: flex;
+}
+
+.whatsappButton{
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+    cursor: pointer;
+    font-size:x-large;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(211, 248, 206);
+    background-position: left;
+    border-radius: 0.7rem;
+    margin-top:0.5rem;
+    text-align: right;
+    display: block;
+    margin-left:0.5rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-size: 30rem;
+    background-image: linear-gradient(to right, #1c6e43 30%, rgb(1, 68, 4) 100%);
+
+}
+
+.discordButton{
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+    cursor: pointer;
+    font-size:x-large;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(214, 247, 253);
+    background-position: left;
+    border-radius: 0.7rem;
+    margin-top:0.5rem;
+    text-align: right;
+    display: block;
+    margin-left:0.5rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-size: 30rem;
+    background-image: linear-gradient(to right, #366b83 30%, rgb(1, 55, 92) 100%);
+}
+
+.instaButton{
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+    cursor: pointer;
+    font-size:x-large;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(252, 214, 253);
+    background-position: left;
+    border-radius: 0.7rem;
+    margin-top:0.5rem;
+    text-align: right;
+    display: block;
+    margin-left:0.5rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-size: 30rem;
+    background-image: linear-gradient(to right, #9e448f 30%, rgb(71, 2, 71) 100%);
+}
+
+
+.insta{
+    margin-top:0.3rem;
+    margin-left: 1rem;
+    display: inline;
+    height:3rem;
+}
+
+
+.eventRight{
+    overflow:auto;
+    height: 100%;
+    margin-top: 10px;
+    float:right;
+    background:  rgb(252, 245, 226);;
+    overflow-x: hidden;
+    display: block;
+    border-radius: 1rem;
+    padding-top:0.4rem;
+    width: 100%;
+    overflow-y:hidden;
+    max-width: 495px;
+    transition: all 0.2s ease-in-out;
+}
+
+.evenRight:hover{
+    box-shadow: 0 0 1000px 0#ffcb90;
+}
+
+
+.eventLeftQuiz{
+    overflow:auto;
+    height: 100%;
+    margin-top:10px;
+    margin-bottom:50px;
+    float:left;
+    background:  rgb(252, 245, 226);;
+    overflow-x: hidden;
+    display: block;
+    border-radius: 1rem;
+    padding-top:0.4rem;
+    width: 100%;
+    overflow-y:hidden;
+    max-width: 495px;
+    transition: all 0.2s ease-in-out;
+}
+
+.evenLeft:hover{
+    box-shadow: 0 0 1000px 0#ffcb90;
+}
+
+.otherQuiz{
+    transition: all 0.2s ease-in-out;
+    overflow:auto;
+    height: 100%;
+    margin-top:10px;
+    float:right;
+    background:  rgb(252, 245, 226);;
+    overflow-x: hidden;
+    display: block;
+    border-radius: 1rem;
+    padding-top:0.4rem;
+    width: 100%;
+    overflow-y:hidden;
+    max-width: 495px;
+}
+
+.otherQuiz:hover{
+    box-shadow: 0 0 1000px 0#ffcb90;
+}
+
+.aboutStavya{
+    margin-left: 1rem;
+    margin-right:1rem;
+    text-align: justify;
+    margin-bottom:0.5rem;
+    transition: all 0.4s ease-in-out;
+    border-top: rgb(145, 145, 145) 2px solid;
+    border-radius: 0.6rem;
+    padding:0.4rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.aboutStavyaFRAME{
+    transition: all 0.2s ease-in-out;
+    margin-top:0.7rem;
+    margin-left: 1rem;
+    margin-right:1rem;
+    text-align: justify;
+    margin-bottom:0.5rem;
+    transition: all 0.4s ease-in-out;
+    border-top: rgb(145, 145, 145) 2px solid;
+    border-bottom: rgb(145, 145, 145) 2px solid;
+    border-radius: 0.6rem;
+    padding:0.4rem;
+}
+
+.aboutStavyaFRAME:hover{
+    color:#fad9f4;
+    background-color: #9e448f;
+    padding:0.5rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 50px #dd5ec8;
+    border: rgb(172, 14, 132) 2px solid;
+}
+
+.aboutStavya:hover{
+    color:#fad9f4;
+    background-color: #9e448f;
+    padding:0.5rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 50px #dd5ec8;
+    border: rgb(172, 14, 132) 2px solid;
+}
+
+.about{
+    text-align: justify;
+    font-family: 'Itim', cursive;
+}
+
+
+
+.aboutComm{
+    margin-top:1rem;
+    margin-left: 1rem;
+    margin-right:1rem;
+    text-align: justify;
+}
+
+
+  
+.disclaimerContainer{
+    margin: 0 auto;
+    margin-bottom: 0px;
+    width: 100%;
+    display: flex;
+    background: transparent;
+    border-radius:1rem;
+    padding-right:0.3rem;
+    height:100%;
+    max-width: 1000px;
+    overflow: hidden;
+}
+
+.disclaimerInfo{
+    font-size:0.7rem;
+    margin-top: 1.0rem;
+    margin-left:1rem;
+    margin-bottom:1rem;
+    text-align: justify;
+    color: rgb(255, 214, 209);
+}
+
+.disclaimer{
+    background-color: rgb(158, 8, 8);
+    border-radius: 0.5rem;
+    padding-left:0.4rem;
+    padding-right:0.4rem;
+    margin: auto;
+    margin-left: 0.3rem;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(255, 214, 209);
+}
+
+
+.cooblueLogo{
+    height: auto;
+    max-width: 20rem;
+    margin: -10px 0px 0px 60px;
+    animation: rotation 100s infinite linear;
+}
+
+.cooWhatsapp{
+    margin-left:0.5rem;
+    width:2.5rem;
+    height: 2.5rem;
+    animation: tap 0.5s infinite linear;
+    border-radius: 2rem;
+}
+
+@keyframes tap {
+    0%{
+        background-color: rgb(219, 255, 219);
+    }
+    50%{
+        background-color: rgb(38, 192, 38);
+    }
+}
+
+
+.cooTop{
+    margin-left:1.4rem;
+    margin-bottom:1rem;
+}
+
+
+
+.hoverButton{
+    transition: transform 0.2s ease-in-out;
+    border:none;
+}
+
+.hoverButton:hover{
+    transform: scaleY(1.05);
+    box-shadow: 0 0 10px #912323;
+    
+}
+
+.nakedNav:hover{
+    transform: scale(1.2);
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+li {
+    list-style-image: url(../Resources/icon.png);
+    margin-left:0rem;
+    margin-right:1.2rem;
+    margin-bottom:1.5rem;
+    text-align: justify;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Itim', cursive;
+    transition: all 0.25s ease-in-out;
+    background-color: transparent;
+}
+
+li:hover{
+    transform: scale(1.02);
+    background-color:rgb(158, 0, 34);
+    border-radius: 1rem;
+    padding:0.5rem;
+    color:rgb(255, 204, 204);
+    box-shadow: 0 0 50px #f7471b;
+}
+
+.aboutImg{
+    max-width: 1rem;
+    float: left;
+}
+
+.culturalLogo{
+    max-width: 100%;
+    height: 200px;
+}
+
+.cultImg{
+    max-width: 900px;
+    animation: rotation 100s infinite linear;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: 0.7rem;
+    object-fit: 50%;
+    float:right;
+    max-width: 70px;
+    animation: rotation 5s infinite linear;
+}
+
+.logo:hover{
+    animation: rotation 0.2s infinite linear;
+}
+
+.blueLogo{
+    max-width: 10%;
+    margin: -10px 0px 0px 270px;
+    animation: rotation 100s infinite linear;
+}
+
+
+
+.logoBIG{
+    max-width: 25rem;
+    margin: -1rem 0rem 0rem -13.5rem;
+    animation: rotation 100s infinite linear;
+    
+}
+
+.TMKOClogoBIG{
+    width:45rem;
+    height:45rem;
+    animation: rotation 100s infinite linear;
+    margin-top:-35rem;
+    margin-left:-2.5rem;
+}
+
+.TMKOCLOGO{
+    margin-top:1rem;
+    margin-left:2rem;
+    width:80%;
+    height:auto;
+}
+
+.quizForm{
+    width:100%;
+    height:700px;
+}
+
+.containerText{
+    display: inline-block;
+    text-align: right;
+}
+
+.stavyaHead{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.stavyaNaked{
+    margin-top: 10rem;
+    margin-left: 3rem;
+    max-width: 15rem;
+    max-height: 3rem;
+}
+
+.contact{
+    margin-top:0;
+    margin-left:1rem;
+    margin-bottom:0.2rem;
+}
+
+h1{
+    margin-left: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(70, 35, 3);
+}
+
+.space{
+    width:100%;
+    height:1rem;
+}
+
+.cooTOPHEAD{
+    margin-left: 1.5rem;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(70, 35, 3);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.navPos{
+    float:right;
+    margin-right: 1rem;
+}
+
+.navButton{
+  align-items: center;
+  appearance: none;
+  background-color: #fff5c9;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Bebas Neue', cursive;
+  height: 2.2rem;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.navButton:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.navButton:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.navButton:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+
+.abutt{
+    text-decoration: none;
+}
+
+.quizLeft{
+    background:  rgb(252, 245, 226);;
+    overflow-x: hidden;
+    float: left;
+    border-radius: 1rem;
+    padding-top:0.4rem;
+    width: 100%;
+    height: 100%;
+    overflow-y:hidden;
+    max-width: 495px;
+    transition: all 0.2s ease-in-out;
+}
+
+.quizLeft:hover{
+    box-shadow: 0 0 1000px 0#ffcb90;
+}
+
+
+.cooContainer{
+    display: flex;
+    min-width: 200rem;
+}
+
+.cooStavya{
+    float:right;
+    max-height: 7rem;
+}
+
+.cooHead{
+    margin:0;
+    margin-left:1rem;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'The Nautigal', cursive;
+}
+
+.cooHead:hover{
+    font-weight:1000;
+    color: #681308;
+}
+
+.cooIMG{
+    border-radius: 50%;
+    max-width: 5rem;
+    margin-left:1rem;
+}
+
+.coordinator{
+    padding:0.6rem;
+    margin-top:0.8rem;
+    display: flex;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.coordinator:hover{
+    background-color: #f2fff0;
+    border-radius: 0.7rem;
+    margin-top:0.8rem;
+    display: flex;
+    box-shadow: 0 0 2rem #004d11;
+
+}
+
+.cooInfo{
+    display: block;
+    float:right;
+}
+
+.cooAbout{
+    font-family: 'Comforter', cursive;
+    color:#681308;
+    margin-left:1rem;
+    float:left;
+    font-weight: 600;
+}
+
+
+.tmkocButton{
+    cursor: pointer;
+    font-size:x-large;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(253, 224, 170);
+    background-position: left;
+    border-radius: 1rem;
+    text-align: right;
+    height:5.5rem;
+    min-width: 90%;
+    display: block;
+    margin-left:1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-size: 30rem;
+    background-image: linear-gradient(to right, transparent 30%, black 100%), url(../Resources/tmkoc.JPG);
+}
+
+.friendsButton{
+    cursor: pointer;
+    font-size:x-large;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(253, 224, 170);
+    background-position: left;
+    border-radius: 1rem;
+    text-align: right;
+    height:5.5rem;
+    min-width: 90%;
+    display: block;
+    margin-left:1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-size: 32rem;
+    background-image: linear-gradient(to right, transparent 30%, black 100%), url(../Resources/friends.JPG);
+}
+
+.bdButton{
+    cursor: pointer;
+    font-size:x-large;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(253, 224, 170);
+    background-position: left;
+    border-radius: 1rem;
+    text-align: right;
+    height:5.5rem;
+    min-width: 90%;
+    display: block;
+    margin-left:1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-size: 30rem;
+    background-image: linear-gradient(to right, transparent 30%, black 100%), url(../Resources/bd.JPG);
+}
+
+.mEventsbutton{
+    cursor: pointer;
+    font-size:x-large;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(253, 224, 170);
+    background-position: left;
+    border-radius: 1rem;
+    text-align: right;
+    height:5.5rem;
+    min-width: 90%;
+    display: block;
+    margin-left:1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+    font-size:x-large;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(253, 224, 170);
+    background-position: left;
+    border-radius: 1rem;
+    text-align: right;
+    height:5.5rem;
+    min-width: 25rem;
+    display: block;
+    margin-left:1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.mEventsbutton:hover{
+    transform: scale(1.05)
+}
+
+
+.stagecraftButton{
+    cursor: pointer;
+    font-size:x-large;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(253, 224, 170);
+    background-position: left;
+    border-radius: 1rem;
+    text-align: right;
+    height:5.5rem;
+    min-width: 90%;
+    display: block;
+    margin-left:1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-size: 40rem;
+    background-image: linear-gradient(to right, transparent 30%, black 100%), url(../Resources/stagecraft.JPG);
+}
+
+.chitrakalaButton{
+    cursor: pointer;
+    font-size:x-large;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(253, 224, 170);
+    background-position: left;
+    border-radius: 1rem;
+    text-align: right;
+    height:5.5rem;
+    min-width: 90%;
+    display: block;
+    margin-left:1rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    background-size: 40rem;
+    background-image: linear-gradient(to right, transparent 5%, black 70%), url(../Resources/chitrakala.JPG);
+}
+
+.pixellenceButton{
+    min-width: 90%;
+    background-size: 40rem;
+    background-image: linear-gradient(to right, transparent 5% , black 70%), url(../Resources/pixellence.JPG);
+}
+
+.nrityakalaButton{
+    min-width: 90%;
+    background-size: 40rem;
+    background-image: linear-gradient(to right, transparent 5% , black 70%), url(../Resources/nrityakala.jpg);
+}
+
+.mb{
+    min-width: 90%;
+    background-size: 30rem;
+    background-image: linear-gradient(to right, transparent 5% , black 70%), url(../Resources/malhar.JPG);
+}
+
+
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
